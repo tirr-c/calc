@@ -1,0 +1,20 @@
+{
+  "name": "calc",
+  "version": "0.1.0",
+  "description": "accurate calculator",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VBChunguk/calc.git"
+  },
+  "author": "VBChunguk",
+  "license": "MIT",
+  "scripts": {
+    "build": "nearleyc parser/expr.ne -o parser/expr.js"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.17",
+    "decimal.js": "^7.1.1",
+    "nearley": "^2.7.11"
+  }
+}
